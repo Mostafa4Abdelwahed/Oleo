@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_adress_adresses",
+  "info": {
+    "displayName": "adress",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Adress": {
+      "type": "boolean",
+      "default": false
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "AddressLine1": {
+      "type": "string"
+    },
+    "AddressLine2": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "PostalCode": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  }
+}
