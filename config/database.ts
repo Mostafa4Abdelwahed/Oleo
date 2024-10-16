@@ -6,7 +6,7 @@ export default ({ env }) => {
   const connections = {
     mysql: {
       connection: {
-        host: env('DATABASE_HOST'),
+        host:'p3plzcpnl504996.prod.phx3.secureserver.net",
         port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME'),
         user: env('DATABASE_USERNAME'),
