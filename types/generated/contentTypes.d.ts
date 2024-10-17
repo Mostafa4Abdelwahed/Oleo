@@ -545,7 +545,6 @@ export interface ApiCartCart extends Struct.CollectionTypeSchema {
     subscribe: Schema.Attribute.Boolean &
       Schema.Attribute.Required &
       Schema.Attribute.DefaultTo<false>;
-    refillPreference: Schema.Attribute.Enumeration<['can', 'bottle']>;
     duration: Schema.Attribute.Integer;
     category: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
@@ -566,13 +565,13 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
     singularName: 'category';
     pluralName: 'categories';
     displayName: 'category';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     name: Schema.Attribute.String & Schema.Attribute.Required;
-    icon: Schema.Attribute.Media<'images'>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;

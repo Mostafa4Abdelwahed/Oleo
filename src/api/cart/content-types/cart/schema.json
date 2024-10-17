@@ -32,13 +32,6 @@
       "default": false,
       "required": true
     },
-    "refillPreference": {
-      "type": "enumeration",
-      "enum": [
-        "can",
-        "bottle"
-      ]
-    },
     "duration": {
       "type": "integer"
     },
