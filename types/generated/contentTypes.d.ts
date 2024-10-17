@@ -644,6 +644,7 @@ export interface ApiProductProduct extends Struct.CollectionTypeSchema {
     harvest: Schema.Attribute.String & Schema.Attribute.Required;
     uses: Schema.Attribute.String & Schema.Attribute.Required;
     refills: Schema.Attribute.String & Schema.Attribute.Required;
+    images: Schema.Attribute.Media<'images', true>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
